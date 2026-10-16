@@ -7,7 +7,7 @@ public class Dropdown {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-	//	System.setProperty("webdriver.chrome.driver", "D:/Pawan/softs/Java softwares/chromedriver-win64/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:/Pawan/softs/Java softwares/chromedriver-win64/chromedriver.exe");
 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
